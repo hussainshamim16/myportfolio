@@ -1,0 +1,136 @@
+@media only screen and (max-width:600px) {
+    section.one .content h1 {
+
+        font-size: 3em;
+    }
+
+    section.one .content {
+
+        padding: 40px 30px;
+
+    }
+
+    nav.men_nav {
+        width: 80%;
+    }
+
+    section.one {
+        height: 90vh;
+    }
+
+    section.two {
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    section.two .box {
+        width: 90%;
+    }
+  
+    section.three .midel{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    section.three .first{
+        width: 100%;
+        height: auto;
+        
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    section.three .second{
+        width: 100%;
+        height: auto;
+        
+        justify-content: center;
+        flex-direction: column;
+    }
+    section.three .bera{
+        background-color:  var(--gr2);
+        /* border: 2px solid red; */
+        border-radius: 5px;
+        width: 90%;
+        margin-bottom: 20px;
+        height: 30vh;
+    }
+    section.three .end{
+        text-align: center;
+    }
+    section.three button{
+        background-color: var(--dark1);
+        border: none;
+        color: var(--white1);
+        font-size: 1.2em;
+        text-transform: capitalize;
+        font-weight: 600;
+        padding: 15px 40px;
+        border-radius: 40pc;
+    }
+    section.four{
+        
+        padding: 90px 10px;
+    /* border: 1px solid red; */
+        
+    }
+    
+    section.four .fale button{
+    padding: 20px 30px;
+    text-transform: uppercase;
+    color: var(--bg3);
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 50px;
+    background-color: var(--grnbg1);
+    font-weight: 800;
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    }
+    
+    section.fourpointone{
+        /* border: 2px solid red; */
+        height: auto;
+        width: 100%;
+    
+        margin-bottom: 70px;
+    }
+    section.fourpointone h1{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 3em;
+        color: var(--white1);
+        margin-bottom: 30px;
+    }
+    
+    section.fourpointone .tecnology{
+        
+        flex-direction: column;
+    }
+    section.fourpointone .tecnology .box{
+        width: 90%;
+        margin-bottom: 20px;
+        height: 60vh;
+    }
+    section.five .last{
+        /* border: 2px solid red; */
+        /* border: 2px solid green; */
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    } 
+    section.five .last a{
+        color: var(--grnbg2);
+        text-transform: lowercase;
+        margin-bottom: 20px;
+        display: block;
+    }
+    section.five .last a i{
+        font-size: 1.4em;
+        
+    }
+}

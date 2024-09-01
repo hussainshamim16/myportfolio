@@ -1,0 +1,80 @@
+.secer1,
+form {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.secer1 h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.secer1 form {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.secer1 form input {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--bg2);
+    color: white;
+    font-size: 1.1em;
+}
+
+.secer1 form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--bg2);
+    color: white;
+    font-size: 1.1em;
+}
+
+.secer1 form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--grnbg2);
+    cursor: pointer;
+    color: var(--bg2);
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 1.1em;
+}
+
+#perantfeed {
+    border: 2px solid red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#perantfeed .boxes {
+    /* background-color: aliceblue; */
+
+
+    /* padding: 20px ; */
+}
+
+#perantfeed .box {
+    background-color: var(--grnbg2);
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px 30px;
+}

@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Jost:ital,wght@0,100..900;1,100..900&family=Odibee+Sans&family=Playwrite+AU+TAS:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    ;
+}
+
+:root {
+    --dark1: #0c0c0c8c;
+    --bg1: #202022;
+    --bg2: #2d2e32;
+    --bg3: #25262a;
+    --gr1: #64f4ac;
+    --gr2: #64f4acea;
+    --gr3: rgba(100, 244, 172, .7);
+    --grnbg1: #05ff82;
+    --grnbg2: #15eb80;
+    --grnbg3: rgba(3, 252, 128, .4);
+    --white1: #fff;
+    --white2: #ccc;
+    --white3: #818181;
+    --red1: red;
+    --red2: rgba(255, 0, 0, .4);
+    --poppin: Poppin;
+    --firacode: Firacode;
+    --cario: Cario;
+}
+::selection{
+    background-color: var(--gr2);
+    color: var(--bg1);
+}
+body{
+    background-color: var(--bg1);
+}
+
+.b {
+    border: 1px solid red;
+}
+
+.f {
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+::-webkit-scrollbar{
+    background-color: var(--bg1);
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--gr1);
+    border-radius: 60px;
+}
+
+header.one{
+    background-color: var(--bg2);
+    padding: 30px 20px;
+    justify-content: space-around;
+    align-items: center;
+
+    animation-name: naver;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+   
+}
+
+@keyframes naver {
+    0%{
+        
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+header.one nav ul{
+    justify-content: space-around;
+    list-style-type: none;    
+}
+header.one nav ul li.logo{
+    color: var(--white1);
+    text-transform: uppercase;
+}
+header.one nav ul li {
+    text-transform: capitalize;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+header.one nav ul li a{
+    color: var(--gr1);
+    text-decoration: none;
+}
+
+header.one nav ul li .btBack{
+    background-color: var(--white3);
+    padding: 0px 1px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    justify-content: flex-start;
+    width: 150%;
+    /* align-items: left; */
+}
+header.one nav ul li .btBack button{
+   background-color: var(--grnbg2);
+   /* text-align: left; */
+   border: none;
+   padding: 5px 10px;
+   color: var(--bg1);
+   font-weight: bold;
+   border-radius: 20px;
+   cursor: pointer;
+   font-size: 0.7em;
+   transition: 0.3s;
+}
+
+header {
+    justify-content: center;
+    height: auto;
+    margin-bottom: 5%;
+
+}
+
+nav.men_nav {
+    background-color: var(--bg3);
+    color: var(--gr1);
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}
+
+nav.men_nav i{
+    font-size: 1.5em;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+nav.men_nav img {
+    width: 9%;
+    opacity: 0.6;
+}
+
+section.one {
+    height: 100vh;
+    background-color: var(--bg1);
+    color: white;
+}
+
+.fa-star{
+    color: var(--grnbg2);
+    font-weight: 100;
+}
+
+section.one .content{
+ /* border: 2px solid red; */
+ padding: 60px 70px;
+
+}
+#hend{
+display: inline-block;
+animation-name: hend;
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes hend {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+
+#Skname{
+    /* animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section.one .content h1{
+    font-size: 3em;
+}
+h1 span{
+    color: var(--gr1);
+}
+section.two{
+
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--bg2);
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 30px;
+}
+section.two .box{
+    /* border: 2px solid var(--gr2); */
+    width: 40%;
+    height: 100%;
+    color: var(--white1);
+}
+section.two .left{
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+section.two .left .boxcontainer{
+    background-color: var(--bg1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+section.two .left .boxcontainer span.first{
+    color: var(--gr2);
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: 10%;
+    margin-bottom: -60px;
+}
+section.two .left .boxcontainer a{
+    color: var(--white1);
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: underline;
+}
+section.two .left .boxcontainer p{
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+section.two .right{
+    height: auto;
+    padding: 10px 20px;
+}
+section.two .right span{font-size: 1.2em; color: var(--white3);text-transform: capitalize; font-weight: 700;}
+section.two .right h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+section.two .right .mid{
+    background-color: var(--bg1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-left: 5px solid var(--gr2);
+    color: var(--white3);
+    text-transform: capitalize;
+    
+}
+section.two .right .end p{
+    color: var(--white2);
+    margin-bottom: 20px;
+}
+section.three{
+    height: auto;
+    padding: 20px 40px;
+}
+section.three .head{
+    text-align: center;
+    color: var(--white1);
+    text-transform: capitalize;
+}
+section.three .head h1{
+    font-size: 3em;
+}
+section.three .head p{
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+section.three .midel{
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 40px;
+}
+section.three .first{
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+section.three .second{
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-around;
+}
+section.three .bera{
+    background-color:  var(--gr2);
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+}
+section.three .end{
+    text-align: center;
+}
+section.three button{
+    background-color: var(--dark1);
+    border: none;
+    color: var(--white1);
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 40pc;
+}
+section.four{
+    background-color: var(--bg2);
+    padding: 90px 40px;
+
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+section.four h1{
+    text-align: center;
+    font-size: 3em;
+    color: var(--white1);
+    text-transform: capitalize  ;
+    margin-bottom: 50px;
+}
+section.four .fale button{
+padding: 20px 70px;
+text-transform: uppercase;
+color: var(--bg3);
+cursor: pointer;
+font-size: 2em;
+border-radius: 50px;
+background-color: var(--grnbg1);
+font-weight: 800;
+border: none;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+
+section.fourpointone{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+
+    margin-bottom: 70px;
+}
+section.fourpointone h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3em;
+    color: var(--white1);
+    margin-bottom: 30px;
+}
+
+section.fourpointone .tecnology{
+    /* background-color: var(--gr1); */
+    justify-content: space-around;
+    align-items: center;
+}
+section.fourpointone .tecnology .box{
+    width: 30%;
+    height: 60vh;
+    background-color: var(--gr2);
+    border-radius: 7px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section.fourpointone .tecnology .box i{
+    background-color: var(--bg1);
+    color: var(--gr2);
+    padding: 50px;
+    font-size: 3em;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+section.fourpointone .tecnology .box h1{
+    color: var(--bg1);
+}
+
+section.fivePointOne{
+    background-color: var(--bg2);
+    border-radius: 20px;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+section.five{
+    height: auto;
+    color: var(--white1);
+    text-transform: capitalize;
+    padding: 80px 10px;
+}
+section.five .first{
+    height: auto;
+    text-align: center;
+    /* border: 2px solid green; */
+    margin-bottom: 10%;
+}
+section.five .first h1{
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+section.five .first button{
+    background-color: var(--grnbg2);
+    padding: 20px 50px;
+    color: var(--bg1);
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+section.five .last{
+    /* border: 2px solid red; */
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 50px;
+} 
+section.five .last a{
+    color: var(--grnbg2);
+    text-transform: lowercase;
+}
+section.five .last a i{
+    font-size: 1.4em;
+    
+}
+section.fivePointOne{
+    
+    height: auto;
+    padding: 50px 0px;
+}
+section.fivePointOne h1{
+    color: var(--white1);
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+section.fivePointOne .scetionContainer{
+    justify-content: space-around;
+    align-items: center;
+
+}
+section.fivePointOne .scetionContainer div {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--bg1);
+    
+    
+    width: 30%;
+    justify-content: center;
+}
+section.fivePointOne .scetionContainer div img{
+    /* border: 2px solid red; */
+    opacity: 0.3;
+    width: 100%;
+    transition-duration: 0.8s;
+
+}
+section.fivePointOne .scetionContainer div img:hover{
+    opacity: 1;
+}
+/* section.fivePointOne .scetionContainer div:hover::after{
+content: 'Certificat';
+position: absolute;
+font-size: 2em;
+color: var(--gr2);
+font-weight: bold;
+text-transform: uppercase;
+width: auto;
+padding: 20px;
+top: 40px;
+border-radius: 5px;
+text-align: center;
+height: auto;
+background-color: var(--bg2);
+} */
