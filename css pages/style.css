@@ -482,10 +482,11 @@ section.five .last{
 } 
 section.five .last a{
     color: var(--grnbg2);
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 section.five .last a i{
-    font-size: 1.4em;
+    font-size: 2.2em;
+    margin-left: 10px;
     
 }
 section.fivePointOne{

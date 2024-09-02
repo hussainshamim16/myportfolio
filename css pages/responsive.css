@@ -3,12 +3,14 @@
         header.one{
             /* background-color: red; */
             /* padding: 30px 20px; */
-            display: flex;
+            /* display: flex; */
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
         
         }
+
+      
         header.one nav {
             width: 100%;
         }

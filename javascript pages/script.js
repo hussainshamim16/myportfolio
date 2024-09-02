@@ -65,6 +65,7 @@ const alignment = (e) => {
 
 const navIn = (el)=>{
     const navOne = document.getElementById("navOne");
+   
     console.log("click");
 
 
@@ -81,15 +82,21 @@ const navIn = (el)=>{
     }
 }
 
-const loader = () => {
-    let load = document.getElementById("load")
-    load.style.display = "flex"
-}
-const noLoader = () => {
-    let load = document.getElementById("load")
-    load.style.display = "none"
-}
+// const loader = () => {
+//     let load = document.getElementById("load")
+//     load.style.display = "flex"
+// }
+// const noLoader = () => {
+//     let load = document.getElementById("load")
+//     load.style.display = "none"
+// }
 
-location.onload(()=>{
-    loader()
-})
+function sendEmail() {
+    
+    var email = "hj422748@gmail.com"; // Apna email yahan daalein
+    var subject = "Website Inquiry";
+    
+    var mailtoLink = "mailto:hj422748@gmail.com?subject=Hello%20World&body=Hi%20there!%20How%20are%20you?" + email + "?subject=" + encodeURIComponent(subject);
+    
+    window.location.href = mailtoLink;
+}
