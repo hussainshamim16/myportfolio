@@ -107,6 +107,10 @@ noLoader()
 }
 GetData()
 
+window.onload(()=>{
+    loader()
+})
+
 
 // let headind = "hussain"
 // headind = headind.toUpperCase()

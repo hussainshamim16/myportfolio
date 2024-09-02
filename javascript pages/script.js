@@ -80,3 +80,16 @@ const navIn = (el)=>{
         a = 6;
     }
 }
+
+const loader = () => {
+    let load = document.getElementById("load")
+    load.style.display = "flex"
+}
+const noLoader = () => {
+    let load = document.getElementById("load")
+    load.style.display = "none"
+}
+
+location.onload(()=>{
+    loader()
+})
