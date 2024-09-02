@@ -1,0 +1,28 @@
+.MenAbout{
+    background-color: red;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+.MenAbout .images{
+    width: 45%;
+}
+.MenAbout .images img{
+    width: 50%;
+}
+.MenAbout .content{
+    width: 40%;
+    background-color: yellow;
+    padding: 20px 30px;
+    text-transform: capitalize;
+}
+.MenAbout .content button{
+  padding: 5px 40px;
+  font-size: 1.2rem
+}
+
