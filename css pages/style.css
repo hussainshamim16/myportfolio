@@ -18,7 +18,7 @@
     --gr3: rgba(100, 244, 172, .7);
     --grnbg1: #05ff82;
     --grnbg2: #15eb80;
-    --grnbg3: rgba(3, 252, 128, .4);
+    --grnbg3: #03fc8066;
     --white1: #fff;
     --white2: #ccc;
     --white3: #818181;
@@ -33,8 +33,8 @@
     color: var(--bg1);
 }
 body{
-    /* background-color: var(--bg1); */
-    background-color: red;
+    background-color: var(--bg1);
+    /* background-color: red; */
 }
 
 .b {
