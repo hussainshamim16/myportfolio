@@ -180,10 +180,10 @@
             width: 90%;
             margin-bottom: 20px;
             height: 60vh;
+
         }
         section.five .last{
-            /* border: 2px solid red; */
-            /* border: 2px solid green; */  
+            
             justify-content: space-around;
             flex-direction: column;
             text-align: center;
@@ -199,4 +199,24 @@
             font-size: 1.4em;
             
         }
+        .scetionContainer{
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 0px;
+        }
+        .scetionContainer div{
+           width: 100%;
+           
+           margin-bottom: 20px;
+           flex-direction: column;
+        }
+        .scetionContainer div img{
+           width: 1000%;
+           
+        }
+        .fivePointOne{
+            background-color: red;
+        }
+
     }

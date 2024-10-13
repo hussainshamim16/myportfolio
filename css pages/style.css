@@ -537,14 +537,19 @@ section.fivePointOne .scetionContainer div img:hover{
   
   .footer__title{
     font-size: 3rem;
-    color: #fff;
+    color: var(--white1);
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 40px;
   }
   .social-iconer{
-    font-size: 4em;
-    color: var(--grnbg1);
+    font-size: 2em;
+    color: var(--gr2);
+  }
+  .social-iconer a{
+    color: var(--grnbg2);
+    margin-right: 20px;
+    text-decoration: none;
   }
   
   .footer__contact-information li{
@@ -553,7 +558,7 @@ section.fivePointOne .scetionContainer div img:hover{
   
   .footer__contact-information li a{
     font-size: 15px;
-    color: #9ca1a3;
+    color: var(--white1);
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 10px;

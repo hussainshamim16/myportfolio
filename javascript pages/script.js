@@ -15,7 +15,7 @@ if (localStorage.display === "light") {
     btnValue.innerHTML = "Light";
 }
 
-let skills = ["VIDEO EDITOR", "GRAPHIC DESIGNER", "Fornt End Developer"]
+let skills = ["VIDEO EDITOR", "GRAPHIC DESIGNER", "Front End Developer"]
 let Skname = document.getElementById('Skname');
 let parent = document.getElementById('parent');
 count = 0;
